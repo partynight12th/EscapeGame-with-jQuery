@@ -1,0 +1,72 @@
+@charset "UTF-8";
+/* CSS Document */
+
+*{
+	margin:0;
+	padding:0;
+}
+
+#wrap{
+	width:1024px;
+	height:768px;
+	overflow:hidden;
+}
+
+.left{
+	float:left;
+}
+
+#field{
+	width:800px;
+	height:600px;
+	overflow:hidden;
+	position:relative;
+}
+
+#field div{
+	width:800px;
+	height:600px;
+	position:absolute;
+}
+
+#field #stage1{
+	background:url("./images/bgnorth.jpg") no-repeat top left;
+	top:0;
+	left:0;
+}
+
+#field #stage2{
+	background:url("./images/bgeast.jpg") no-repeat top left;
+	top:0;
+	left:800px;
+}
+
+#field #stage3{
+	background:url("./images/bgsouth.jpg") no-repeat top left;
+	top:0;
+	left:1600px;
+}
+
+#field #stage4{
+	background:url("./images/bgwest.jpg") no-repeat top left;
+	top:0;
+	left:-800px;
+}
+
+
+
+#message{
+	float:left;
+	width:770px;
+	height:138px;
+	background-color:#ccc;
+	border:10px solid #999;
+	padding:5px;
+}
+
+#items{
+	float:right;
+	width:224px;
+	height:768px;
+	background-color:#888;
+}
